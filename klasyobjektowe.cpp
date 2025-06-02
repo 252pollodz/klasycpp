@@ -10,14 +10,14 @@ int main()
     //Point p1, p2, p3;
     Point p1;
     Point p2("P2", 30, 40);
-    Point p3 = Point("P3");
+    Point p3 = Point("P3",5,5);
     Point p4 = { "P4", 30, 40 };
-    Point p5 {};
+    Point p5 {"P5"};
 
     p1.setName("P1");
     p1.setXY(10, 20);
     p2.setXY(30, 40);
-
+    p5.setXY(70,22);
     p1.show();
     p2.show();
     p3.show();

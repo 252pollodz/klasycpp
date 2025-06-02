@@ -9,7 +9,10 @@ int main()
         Point("P2", 10, 20),
         Point("P3", 30, 40),
         Point("P4", 50, 60),
-        Point("P8", 70, 80),
+        Point("P5", 70, 80),
+        Point(),
+        Point(),
+        Point("P8",15,25)
       };
 
     cout << "Istnieje " << Point::numberOfPoints() << " punktow."<< endl;
